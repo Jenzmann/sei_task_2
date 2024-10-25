@@ -1,0 +1,2472 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7e532580-8d79-432e-8e99-0ba62ee0fb34",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-10-25T13:37:57Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "CycloneDX module for .NET",
+        "version": "4.0.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "SEI@0.0.0",
+      "name": "SEI",
+      "version": "0.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Azure.Core@1.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Azure.Core",
+      "version": "1.35.0",
+      "description": "This is the implementation of the Azure Client Pipeline",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "A778235D1A90A4E32087D8DDAD43FD2F484956FA617545E1644223544FF794C7E9A0CD962717F35A12B88EC5B2DEDD4D9D8366BDC6ADDF5D4577B989E0C99475"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Azure.Core@1.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core_1.35.0/sdk/core/Azure.Core/README.md",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Azure.Identity@1.10.3",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Azure.Identity",
+      "version": "1.10.3",
+      "description": "This is the implementation of the Azure SDK Client Library for Azure Identity",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8610DF1B1B6C937A76057CAF4EFDE2876A79EBAC6307C4873140CF86EC987ACDC21AD65B1FE3C4C7D2F387902C3B8FA73712DB0BF7525067F786ED2A3B95BDBB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Azure.Identity@1.10.3",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Identity_1.10.3/sdk/identity/Azure.Identity/README.md",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "version": "1.1.1",
+      "description": "Provides the IAsyncEnumerable\u003CT\u003E and IAsyncDisposable interfaces and helper types for .NET Standard 2.0. This package is not required starting with .NET Standard 2.1 and .NET Core 3.0.\n\nCommonly Used Types:\nSystem.IAsyncDisposable\nSystem.Collections.Generic.IAsyncEnumerable\nSystem.Collections.Generic.IAsyncEnumerator\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4CCE7ECAD99BAAE70B1F815CD047431F284A466342E4456F929BEF24891F45D600D90037F0D45CA97B1B8A453B51145DC215B9807AC1CE8B2B8CF45630334204"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/corefx",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CSharp@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.CSharp",
+      "version": "4.5.0",
+      "description": "Provides support for compilation and code generation, including dynamic, using the C# language.\n\nCommonly Used Types:\nMicrosoft.CSharp.RuntimeBinder.Binder\nMicrosoft.CSharp.RuntimeBinder.RuntimeBinderException\nMicrosoft.CSharp.RuntimeBinder.CSharpArgumentInfo\nMicrosoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags\nMicrosoft.CSharp.RuntimeBinder.CSharpBinderFlags\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C9659E4DB182CC13A544F583088C624D95B579C66231B6A8D194FDECA28459D061ACBBD4A94F11773921CEE091433BE8C73C6547BBF2B4EE3738E805764C6FEA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.CSharp@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Data.SqlClient@5.1.5",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Data.SqlClient",
+      "version": "5.1.5",
+      "description": "Provides the data provider for SQL Server. These classes provide access to versions of SQL Server and encapsulate database-specific protocols, including tabular data stream (TDS)\n    \nCommonly Used Types:\nMicrosoft.Data.SqlClient.SqlConnection\nMicrosoft.Data.SqlClient.SqlException\nMicrosoft.Data.SqlClient.SqlParameter\nMicrosoft.Data.SqlClient.SqlDataReader\nMicrosoft.Data.SqlClient.SqlCommand\nMicrosoft.Data.SqlClient.SqlTransaction\nMicrosoft.Data.SqlClient.SqlParameterCollection\nMicrosoft.Data.SqlClient.SqlClientFactory\n\nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "367D7411498FF8957C8F6B93B361C4C82F6F98E4ED179B5C12607234C5C1C19E63D59986F1D8FCF80FFD6DECEC1E4AF6C84F6E3C8863BEDB31B9B347DC2F0BFE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Data.SqlClient@5.1.5",
+      "externalReferences": [
+        {
+          "url": "https://aka.ms/sqlclientproject",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/sqlclient",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Data.SqlClient.SNI.runtime",
+      "version": "5.1.1",
+      "description": "Internal implementation package not meant for direct consumption. Please do not reference directly.\n\nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "31D9B4237FE3965FDDC7079E2DB973C1C84383265285D71B0F5496625CD4FF66CC910AF95AF58FCAA22C6785B13B2AD6EB61AA3B1DA9557BC6DBDFFDE15FA1AE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://aka.ms/deprecateLicenseUrl"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.1",
+      "externalReferences": [
+        {
+          "url": "https://aka.ms/sqlclientproject",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.10",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.EntityFrameworkCore",
+      "version": "8.0.10",
+      "description": "Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations. EF Core works with SQL Server, Azure SQL Database, SQLite, Azure Cosmos DB, MySQL, PostgreSQL, and other databases through a provider plugin API.\n\nCommonly Used Types:\nMicrosoft.EntityFrameworkCore.DbContext\nMicrosoft.EntityFrameworkCore.DbSet",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CD8CB76F590C2E76E33950264E07600164578C5D7D52D5E60FCC001CA139BA4AC1FDD440BCA4491859CE0F1446D4D4EA6A3EB08FA5253B28409184C299D77C29"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.10",
+      "externalReferences": [
+        {
+          "url": "https://docs.microsoft.com/ef/core/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/efcore",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.10",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.EntityFrameworkCore.Abstractions",
+      "version": "8.0.10",
+      "description": "Provides abstractions and attributes that are used to configure Entity Framework Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F5C82B27AF40B9D30ED74F30694845D3A6DC467700BCE1174A11335956C48492B0E64540EC9E6EBE338EED6CC393A74DA4158DBDFBE736C92B5E1F47BF382792"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.10",
+      "externalReferences": [
+        {
+          "url": "https://docs.microsoft.com/ef/core/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/efcore",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.10",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.EntityFrameworkCore.Analyzers",
+      "version": "8.0.10",
+      "description": "CSharp Analyzers for Entity Framework Core.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "941FE2AE4458FD118A6C6EBE0C8CD7EF3C9A3AFEE1B95C242A85297A0CCED459549394435FF93ECB85365D3424E409B2C24074448BD31302C7F2FD8A18A15CB1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.10",
+      "externalReferences": [
+        {
+          "url": "https://docs.microsoft.com/ef/core/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/efcore",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.10",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.EntityFrameworkCore.Relational",
+      "version": "8.0.10",
+      "description": "Shared Entity Framework Core components for relational database providers.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "C4B4AC7A1C421A2DB6351545F1530E719179C3793D0C1AE239041B6947C280F4C26D2E98284DB01A052DC05C98DBFDB90DE2491FF8BE76FE811B857056CB998E"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.10",
+      "externalReferences": [
+        {
+          "url": "https://docs.microsoft.com/ef/core/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/efcore",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.10",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.EntityFrameworkCore.SqlServer",
+      "version": "8.0.10",
+      "description": "Microsoft SQL Server database provider for Entity Framework Core.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EB1CE1F55470A8E0133DAEAEC079521C5C01F19927D865201B35826F8E145CF35E5D1409E5817220874A2765D4E23F11826E3D0B2EE2E7046601F18A24FDF2CF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.10",
+      "externalReferences": [
+        {
+          "url": "https://docs.microsoft.com/ef/core/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/efcore",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Caching.Abstractions",
+      "version": "8.0.0",
+      "description": "Caching abstractions for in-memory cache and distributed cache.\n\nCommonly Used Types:\nMicrosoft.Extensions.Caching.Distributed.IDistributedCache\nMicrosoft.Extensions.Caching.Memory.IMemoryCache",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1FDC30912CC1EAD9362F70853DE219A9DC7070BC28F621E387185670E605746EE2F13B0DF9DB03D0B1F8919D4BDAAD40EBE9F8203E3A0CBB61145AA8848BE136"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Caching.Memory",
+      "version": "8.0.1",
+      "description": "In-memory cache implementation of Microsoft.Extensions.Caching.Memory.IMemoryCache.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "39D053A5A92F413D012F910DF6716CDAC2F1CACFD234531B956DFCD10F1A83EA8CB84D017D4C72E011F87C53DB27E33E9DC7C86F842EACDB1907CB895B448817"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "8.0.0",
+      "description": "Provides abstractions of key-value pair based configuration. Interfaces defined in this package are implemented by classes in Microsoft.Extensions.Configuration and other configuration packages.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3316170910A94290C8DF4FED26FA884A47DD9BF974EB7AD22368D5A63308660A01D2DAB4A44662061DACAECCF4BA09CDABFCCD4636F76AB3178BECEC5AD31A2F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "8.0.1",
+      "description": "Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B6D2C496CE68BF91AC7499EB2A8AAE34347E648B9BE853E535A36044AFCF8173561650ABA33068346F458062F29C8E0C1F5859F73800D512EC0F464DD467D00F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "8.0.2",
+      "description": "Abstractions for dependency injection.\n\nCommonly Used Types:\nMicrosoft.Extensions.DependencyInjection.IServiceCollection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "BA1960EF110AC7387A2A06EEFC02C59CE57B0FE58B3E0CCCB79B1C8F2150105C5D1F4B65E0ED95FF50D70F28142917C6A735B83F4E5406BB1D8F9DD1F9635D7D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging",
+      "version": "8.0.1",
+      "description": "Logging infrastructure default implementation for Microsoft.Extensions.Logging.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "AB3363C4E103963EE5013ADA55FDDCD771961E48E5124F41E70589E589DACF27D20CFF7E04BFC214DB79FD937CBAD80E99CEF565F72E0CC10B84D9B3AC0619FD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@8.0.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "8.0.2",
+      "description": "Logging abstractions for Microsoft.Extensions.Logging.\n\nCommonly Used Types:\nMicrosoft.Extensions.Logging.ILogger\nMicrosoft.Extensions.Logging.ILoggerFactory\nMicrosoft.Extensions.Logging.ILogger\u003CTCategoryName\u003E\nMicrosoft.Extensions.Logging.LogLevel\nMicrosoft.Extensions.Logging.Logger\u003CT\u003E\nMicrosoft.Extensions.Logging.LoggerMessage\nMicrosoft.Extensions.Logging.Abstractions.NullLogger",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F8B9DF3FA7B837CB5F2FA53A86BFD47279F81BC332DB55B8BB7EA14F55DFE2158F351D35199C0CC0E01C735F394DED2A3A8F1C85C3FF6EA1C3AB785BFBF362FD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.2",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Options",
+      "version": "8.0.2",
+      "description": "Provides a strongly typed way of specifying and accessing settings using dependency injection.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "CC0C10336580C9519740A042B1E42D391BCB32B63732163AE1161E1C5B55A4CD4A736E1902EB2A4DBB89D784B0ACF584B5042B4F3481A61DD30A4E229FB523C5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Options@8.0.2",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "8.0.0",
+      "description": "Primitives shared by framework extensions. Commonly used types include:\n\nCommonly Used Types:\nMicrosoft.Extensions.Primitives.IChangeToken\nMicrosoft.Extensions.Primitives.StringValues\nMicrosoft.Extensions.Primitives.StringSegment",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1F5475CA3D3CE18463456DD135AFAC502D6F82FEA6E4E4814A61F86616C348DECF28B73D15C2BB276D1A3C039EA6064F75E1329F6F3A64CAA3520D70AB92C32D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client@4.56.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Identity.Client",
+      "version": "4.56.0",
+      "description": "This package contains the binaries of the Microsoft Authentication Library for .NET (MSAL.NET).\n      MSAL.NET makes it easy to obtain tokens from the Microsoft identity platform for developers (formally Azure AD v2.0) signing-in users with work \u0026 school accounts, Microsoft personal accounts, and social identities via Azure AD B2C. These tokens provide access to Microsoft Cloud API and any other API secured by the Microsoft identity platform. This version supports adding authentication functionality to your .NET based clients - .NET, .NET Framework, .NET MAUI, Xamarin iOS, Xamarin Android and UWP",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4BD188BD7CBB59B5359E86AC0C3ABEF9D01D19C2897A4950320E55A2F501DBBCD135AAD70A4572A20FF5105E9EF3EA71E2096D1C8889C21436A2B4C14351F7DF"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Identity.Client@4.56.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=844761",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/microsoft-authentication-library-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@4.56.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Identity.Client.Extensions.Msal",
+      "version": "4.56.0",
+      "description": "This package contains the public client (desktop) caching to Microsoft Authentication Library for .NET (MSAL.NET)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "543328E74CCB38328E5834E24FBB6B452917B6C06377C4A199CCDBE025213CAD8B91DE2B9EC621283AE7CC4D2334B96236BF683E3CD699A8DF8345AE7BA2B819"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@4.56.0",
+      "externalReferences": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=844761",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/microsoft-authentication-library-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Abstractions",
+      "version": "6.35.0",
+      "description": "A package containing thin abstractions for Microsoft.IdentityModel.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5549D4E6C222A47761C18243215161AE7BE31EFCBB26179A1E1A69E65C60BDEB61755515F0485F2E89A320C368B8A92E9F66A3D7E5D21DF188486232C4D9E102"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "version": "6.35.0",
+      "description": "Includes types that provide support for creating, serializing and validating JSON Web Tokens.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "77D49BED0FF86CACEDF56538B9EDE22BDF782144123B8E60EBED342E36936882F1E72D9EF8CD224423453AD8D2DAF136B66FE4A70E37121E7DCAAAD1EB91C397"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Logging@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Logging",
+      "version": "6.35.0",
+      "description": "Includes Event Source based logging support.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8C88C8BACAE3C896F21E175126C206B04B13F37B030F5DEFA40969F16739C2D040E01E4C4708C00C31E6CBD555D4E6798E41C2C6A3D6BECF0CA605D03F63BCD0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Logging@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Protocols",
+      "version": "6.35.0",
+      "description": "Provides base protocol support for OpenIdConnect and WsFederation.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "030105D43A8A0BC8B236676ED5E23004B59ABD6B26DD250B532E7AD09265A457AF49E438BD48B603235B1C4B9F841B4D3DB29A792B1DF44C5DA65806F394FED8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "version": "6.35.0",
+      "description": "Includes types that provide support for OpenIdConnect protocol.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6D66DE24CF3C3F537C8ABB77EB62A12047DAE6DA289EA51AC2284BE7D177912D442F4794F6C12929AB793A0FDA20BA9326166D320C8759989104427FDA558CB4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.IdentityModel.Tokens",
+      "version": "6.35.0",
+      "description": "Includes types that provide support for SecurityTokens, Cryptographic operations: Signing, Verifying Signatures, Encryption.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3E62F4C510226F2A4F7AC95F75E2E8C8EBD631D0CFE484395F54549C32D2A4F5D19D355C64A82A3698857B132AC39306145B808012DBAAF93BDB2ADE2BED6FE1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "1.1.0",
+      "description": "Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6BF892C274596FE2C7164E3D8503B24E187F64D0B7BEC6D9B05EB95F04086FCEB7A85EA6B2685D42DC465C52F6F0E6F636C0B3FDDAC48F6F0125DFD83E92D106"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.NETCore.Targets",
+      "version": "1.1.0",
+      "description": "Provides supporting infrastructure for portable projects: support identifiers that define framework and runtime for support targets and packages that reference the minimum supported package versions when targeting these. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1EF033A68688AAB9997EC1C0378ACB1638B4AFB618E533FCAF749D93389737BA94F4A0A94481BECDF701C7E988AE2FE390136A8EAE225887EE60DB45063490FE"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.SqlServer.Server@1.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.SqlServer.Server",
+      "version": "1.0.0",
+      "description": "This is a helper library for Microsoft.Data.SqlClient enabling cross framework support of UDT types.\n    \nAvailable Types:\nMicrosoft.SqlServer.Server.IBinarySerializer\nMicrosoft.SqlServer.Server.InvalidUdtException\nMicrosoft.SqlServer.Server.SqlFacetAttribute\nMicrosoft.SqlServer.Server.SqlFunctionAttribute\nMicrosoft.SqlServer.Server.SqlMethodAttribute\nMicrosoft.SqlServer.Server.SqlUserDefinedAggregateAttribute\nMicrosoft.SqlServer.Server.SqlUserDefinedTypeAttribute\nMicrosoft.SqlServer.Server.DataAccessKind\nMicrosoft.SqlServer.Server.SystemDataAccessKind\nMicrosoft.SqlServer.Server.Format",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1BD90B08C94FADF3BB6112C95F6D34A6E1251F4710823FA995CBA2ECD657146A1E594DE338EDB6E18AD351E300052E824EC81ED02F48D3FF2D8585169A9A4260"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.SqlServer.Server@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://aka.ms/sqlclientproject",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/sqlclient",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "Microsoft.Win32.SystemEvents",
+      "version": "6.0.0",
+      "description": "Provides access to Windows system event notifications.\n\nCommonly Used Types:\nMicrosoft.Win32.SystemEvents",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5E274ACE996C3EBA63099ED5116F9DC39F69F684F7C1E7623C28C3C73988B75C67DFCC929A50A761F0222DF243DD540720A6E588E91DFA784F81BFCE7A893875"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.3",
+      "authors": [
+        {
+          "name": "James Newton-King"
+        }
+      ],
+      "name": "Newtonsoft.Json",
+      "version": "13.0.3",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "99B252BC77D1C5F5F7B51FD4EA7D5653E9961D7B3061CF9207F8643A9C7CC9965EEBC84D6467F2989BB4723B1A244915CC232A78F894E8B748CA882A7C89FB92"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "Copyright \u00A9 James Newton-King 2008",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.3",
+      "externalReferences": [
+        {
+          "url": "https://www.newtonsoft.com/json",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/JamesNK/Newtonsoft.Json",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Configuration.ConfigurationManager",
+      "version": "6.0.1",
+      "description": "Provides types that support using configuration files.\n\nCommonly Used Types:\nSystem.Configuration.Configuration\nSystem.Configuration.ConfigurationManager",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "80983931D4F1155BF191FADAD6025D4FDE3535F1B96FA9CEA424EAF7C85AECA8280ED2822E1E1826C30324EC03EAA704C307CCB5C5FAB26314416290378D77B9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0.1",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Diagnostics.DiagnosticSource",
+      "version": "6.0.1",
+      "description": "Provides Classes that allow you to decouple code logging rich (unserializable) diagnostics/telemetry (e.g. framework) from code that consumes it (e.g. tools)\n\nCommonly Used Types:\nSystem.Diagnostics.DiagnosticListener\nSystem.Diagnostics.DiagnosticSource",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "80A0F9BF3A7AFDB28D9F00E1F301FEEACB39C34FE4AC8F55A392377E2E018FB546FC3FC56E2FE4336DEA222B7AB3F4BAB58A0B8D86EB18C71951EF2E1C752789"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0.1",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Drawing.Common@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Drawing.Common",
+      "version": "6.0.0",
+      "description": "Provides access to GDI\u002B graphics functionality.\n\nCommonly Used Types:\nSystem.Drawing.Bitmap\nSystem.Drawing.BitmapData\nSystem.Drawing.Brush\nSystem.Drawing.Font\nSystem.Drawing.Graphics\nSystem.Drawing.Icon\n\nUnix support is disabled by default. See https://aka.ms/systemdrawingnonwindows for more information.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D61F0A3E01C3EAC15F13FC1BA04A2C7CE4EAC956400B2FAA361FECABD3836D49D5BD344F3985EE3D94CDC3F6A72B8E07E423CDB2965B4F5CA2222B5DE32988E4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Drawing.Common@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Formats.Asn1@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Formats.Asn1",
+      "version": "5.0.0",
+      "description": "Provides classes that can read and write the ASN.1 BER, CER, and DER data formats.\n\nCommonly Used Types:\nSystem.Formats.Asn1.AsnReader\nSystem.Formats.Asn1.AsnWriter\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "01C6999E0A8984F4CE94CB731748CD88113E5BD4411031BD281FE1EF637F973090AF49D00515E00FD87CE9801711C23A3119ECBDB2D1FE17247AC9E55B434B99"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Formats.Asn1@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.35.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "version": "6.35.0",
+      "description": "Includes types that provide support for creating, serializing and validating JSON Web Tokens.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9EAA6112E3B4EA685B03C838F2AD7ED01D5EAF2DA150097BD0C54EADCC430C9D214A596841A9A0F316C82787BF6AD2F82B160ED771C1CEF9D4F61B0E4CC6B059"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.35.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.FileSystem.AccessControl@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.IO.FileSystem.AccessControl",
+      "version": "5.0.0",
+      "description": "Provides types for managing access and audit control lists for files and directories.\n\nCommonly Used Types:\nSystem.Security.AccessControl.DirectoryObjectSecurity\nSystem.Security.AccessControl.DirectorySecurity\nSystem.Security.AccessControl.FileSecurity\nSystem.Security.AccessControl.FileSystemAccessRule\nSystem.Security.AccessControl.FileSystemAuditRule\nSystem.Security.AccessControl.FileSystemRights\nSystem.Security.AccessControl.FileSystemSecurity\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45A6B5446FAA06612E90974BD7D542D9A1480C0583C0237E8732FFBCEFF1B70A6E12C23792145E7613BD00041BDA26745B83D73008EE71A46DA5C7A40A4568D3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.IO.FileSystem.AccessControl@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Memory@4.5.4",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Memory",
+      "version": "4.5.4",
+      "description": "Provides types for efficient representation and pooling of managed, stack, and native memory segments and sequences of such segments, along with primitives to parse and format UTF-8 encoded text stored in those memory segments.\n\nCommonly Used Types:\nSystem.Span\nSystem.ReadOnlySpan\nSystem.Memory\nSystem.ReadOnlyMemory\nSystem.Buffers.MemoryPool\nSystem.Buffers.ReadOnlySequence\nSystem.Buffers.Text.Utf8Parser\nSystem.Buffers.Text.Utf8Formatter\n \n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8ECE5491EB0FE332BC190F40CF76B3BEEE0C5F996325034861BE221FDB0FF02FD59E4F7020B3C4A1F29A457F76FF76C4C95D46D38555E4F48C7A3BF172D87966"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Memory@4.5.4",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Memory.Data@1.0.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Memory.Data",
+      "version": "1.0.2",
+      "description": "Contains the BinaryData type, which is useful for converting between strings, streams, JSON, and bytes.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "089EBD3F3D9BC6F3C24C8F081087A03EC5A655D4B914F4612633B7D45ED0F8BA8404978FD6FF1892AA45BF7FADE0BD806DFFF3A0C27F19500785262D333E3220"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Memory.Data@1.0.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net/blob/System.Memory.Data_1.0.2/sdk/core/System.Memory.Data/README.md",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/Azure/azure-sdk-for-net",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Numerics.Vectors",
+      "version": "4.5.0",
+      "description": "Provides hardware-accelerated numeric types, suitable for high-performance processing and graphics applications.\n\nCommonly Used Types:\nSystem.Numerics.Matrix3x2\nSystem.Numerics.Matrix4x4\nSystem.Numerics.Plane\nSystem.Numerics.Quaternion\nSystem.Numerics.Vector2\nSystem.Numerics.Vector3\nSystem.Numerics.Vector4\nSystem.Numerics.Vector\nSystem.Numerics.Vector\u003CT\u003E\n \n30ab651fcb4354552bd4891619a0bdd81e0ebdbf",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9C04EC0530F608AAF801837A791B33857E2CA6D2265A6049C01FD4E972825967E709CAD3070F174829B7400F608E9A641D3AFC3A45D4636D4C47DD43DD0657B3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime",
+      "version": "4.3.0",
+      "description": "Provides the fundamental primitives, classes and base classes that define commonly-used value and reference data types, events and event handlers, interfaces, attributes, and exceptions. This packages represents the core package, and provides the minimal set of types required to build a managed application.\n\nCommonly Used Types:\nSystem.Object\nSystem.Exception\nSystem.Int16\nSystem.Int32\nSystem.Int64\nSystem.Enum\nSystem.String\nSystem.Char\nSystem.Boolean\nSystem.SByte\nSystem.Byte\nSystem.DateTime\nSystem.DateTimeOffset\nSystem.Single\nSystem.Double\nSystem.UInt16\nSystem.UInt32\nSystem.UInt64\nSystem.IDisposable\nSystem.Uri\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "92AB2249F08073CFAFDC4CFBD7DB36D651AD871B8D8BA961006982187DE374BF4A30AF93F15F73B05AF343F7A70CBD484B04D646570587636AE72171EB0714FB"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Caching@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime.Caching",
+      "version": "6.0.0",
+      "description": "Provides classes to use caching facilities.\n\nCommonly Used Types:\nSystem.Runtime.Caching.CacheEntryChangeMonitor\nSystem.Runtime.Caching.CacheEntryRemovedArguments\nSystem.Runtime.Caching.CacheEntryUpdateArguments\nSystem.Runtime.Caching.CacheItem\nSystem.Runtime.Caching.CacheItemPolicy\nSystem.Runtime.Caching.ChangeMonitor\nSystem.Runtime.Caching.FileChangeMonitor\nSystem.Runtime.Caching.HostFileChangeMonitor\nSystem.Runtime.Caching.MemoryCache\nSystem.Runtime.Caching.ObjectCache",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "001810A2563BFC28561BC3E3E84072B0C8ED8F508354937B696796B975E1FB2EDA4BE1CC8CEC31D4E662FECFFF76250752B762CC02279A05AB6B2E39832E4442"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.Caching@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "version": "6.0.0",
+      "description": "Provides the System.Runtime.CompilerServices.Unsafe class, which provides generic, low-level functionality for manipulating pointers.\n\nCommonly Used Types:\nSystem.Runtime.CompilerServices.Unsafe",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D4057301BE4EC4936F24B9CE003B5EC4D99681AB6D9B65D5393DD38D04CDEC37784AAA12C1A8B50AC3767ED878DAE425749490773FEC01E734F93CF1045822B3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.AccessControl@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.AccessControl",
+      "version": "6.0.0",
+      "description": "Provides base classes that enable managing access and audit control lists on securable objects.\n\nCommonly Used Types:\nSystem.Security.AccessControl.AccessRule\nSystem.Security.AccessControl.AuditRule\nSystem.Security.AccessControl.ObjectAccessRule\nSystem.Security.AccessControl.ObjectAuditRule\nSystem.Security.AccessControl.ObjectSecurity",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "64A36A103B954AB4B7E8A76C0E876579BD484C308E444C2D915FB9A0FD05AD63614501ED235C544AFC9B431CB8A4CF0F0715B8ED414E85958E6D68579168FB45"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.AccessControl@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Cng@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Cryptography.Cng",
+      "version": "5.0.0",
+      "description": "Provides cryptographic algorithm implementations and key management with Windows Cryptographic Next Generation API (CNG).\n\nCommonly Used Types:\nSystem.Security.Cryptography.RSACng\nSystem.Security.Cryptography.ECDsaCng\nSystem.Security.Cryptography.CngKey\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "B6BBE402495487333EFF3F5B3E71A60CBCE66EF0F49752250BA829151A738C62F295382D4CFAA6F14BFBB670C14EE05039B8C4641C4D4B46C28488BACD0095F7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Cryptography.Cng@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Cryptography.ProtectedData",
+      "version": "6.0.0",
+      "description": "Provides access to Windows Data Protection Api.\n\nCommonly Used Types:\nSystem.Security.Cryptography.DataProtectionScope\nSystem.Security.Cryptography.ProtectedData",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "489B5DAB0ABFADFB8BC2D0437DE83A1447918071949440E766DB701C81C3518DE6A38A3E0F699706B06D591AB5393C7BC0B2EAA81C15BFF156339248E6C35730"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Permissions@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Permissions",
+      "version": "6.0.0",
+      "description": "Provides types supporting Code Access Security (CAS).",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "D4F2172CC3B164F104FA2E3A330B62F2A15F50E050A91659DB5728F28D4D5D6CA8660EEC3A4F922090181A54BC1E9F6634CA49750398360727D1BC59DB620278"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Permissions@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Security.Principal.Windows",
+      "version": "5.0.0",
+      "description": "Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.\n\nCommonly Used Types:\nSystem.Security.Principal.WindowsIdentity\nSystem.Security.Principal.SecurityIdentifier\nSystem.Security.Principal.NTAccount\nSystem.Security.Principal.WindowsPrincipal\nSystem.Security.Principal.IdentityReference\nSystem.Security.Principal.IdentityNotMappedException\nSystem.Security.Principal.WindowsBuiltInRole\nSystem.Security.Principal.WellKnownSidType\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "44A920AAAF22B2172D41319BB57AB2B8E1A4531D5F02192A6F53A81D875125195B60BA0B5A44A45981D137FD7B0F3A65B12959B5FD97AFC0578CD84EF27467CD"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "website"
+        },
+        {
+          "url": "git://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encoding",
+      "version": "4.3.0",
+      "description": "Provides base abstract encoding classes for converting blocks of characters to and from blocks of bytes.\n\nCommonly Used Types:\nSystem.Text.Encoding\nSystem.Text.DecoderFallbackException\nSystem.Text.Decoder\nSystem.Text.EncoderFallbackException\nSystem.Text.Encoder\nSystem.Text.EncoderFallback\nSystem.Text.EncoderFallbackBuffer\nSystem.Text.DecoderFallback\nSystem.Text.DecoderFallbackBuffer\nSystem.Text.DecoderExceptionFallback\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6FF7FEEC7313A7121F795EC7D376E4B8728C17294219FAFDFD4EA078F9DF1455B4685F0B3962C3810098E95D68594A8392C0B799D36EC8284CD6FCBD4CFE2C67"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "http://go.microsoft.com/fwlink/?LinkId=329770"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation.  All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding.CodePages@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encoding.CodePages",
+      "version": "6.0.0",
+      "description": "Provides support for code-page based encodings, including Windows-1252, Shift-JIS, and GB2312.\n\nCommonly Used Types:\nSystem.Text.CodePagesEncodingProvider",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "EC873A95EC517DE2C5A5364ADA30974DDD5E0FAFEF2AD2517609A1900B5059D35757536FD073805001FA68D5B56A3D4647010A96C9EB233B1D172A3B45FBE4A9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encoding.CodePages@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Encodings.Web",
+      "version": "6.0.0",
+      "description": "Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).\n\nCommonly Used Types:\nSystem.Text.Encodings.Web.HtmlEncoder\nSystem.Text.Encodings.Web.UrlEncoder\nSystem.Text.Encodings.Web.JavaScriptEncoder",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0F26AFEEAA709EA1F05EF87058408DD9DF640C869D7398B2C9C270268DDF21A9208CD7D2BFA1F7FBD8A5CEAB735DD22D470A3689627C9C4FADC0EA5FE76237FA"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Json@4.7.2",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Text.Json",
+      "version": "4.7.2",
+      "description": "Provides high-performance and low-allocating types that serialize objects to JavaScript Object Notation (JSON) text and deserialize JSON text to objects, with UTF-8 support built-in. Also provides types to read and write JSON text encoded as UTF-8, and to create an in-memory document object model (DOM), that is read-only, for random access of the JSON elements within a structured view of the data.\n\nCommonly Used Types:\nSystem.Text.Json.JsonSerializer\nSystem.Text.Json.JsonDocument\nSystem.Text.Json.JsonElement\nSystem.Text.Json.Utf8JsonWriter\nSystem.Text.Json.Utf8JsonReader\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "345D15C74A9AC6DDABEEBA349B9BA027E48B423972984FF202EA74B5413DD502236817746A82485C840A0CFC818179B94548731DB5F361B07A4D11BDDA20F50F"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Text.Json@4.7.2",
+      "externalReferences": [
+        {
+          "url": "https://github.com/dotnet/corefx",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Threading.Tasks.Extensions",
+      "version": "4.5.4",
+      "description": "Provides additional types that simplify the work of writing concurrent and asynchronous code.\n\nCommonly Used Types:\nSystem.Threading.Tasks.ValueTask\u003CTResult\u003E\n \n7601f4f6225089ffb291dc7d58293c7bbf5c5d4f",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "68052086E77D3C7198737A3DA163D67740B7C44F93250C39659B3BF21B6547A9ABF64CBF40481F5C78F24361AF3AAF47D52D188B371554A0928A7F7665C1FC14"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Unknown - See URL",
+            "url": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Windows.Extensions@6.0.0",
+      "authors": [
+        {
+          "name": "Microsoft"
+        }
+      ],
+      "name": "System.Windows.Extensions",
+      "version": "6.0.0",
+      "description": "Provides miscellaneous Windows-specific types\n\nCommonly Used Types:\nSystem.Security.Cryptography.X509Certificates.X509Certificate2UI\nSystem.Security.Cryptography.X509Certificates.X509SelectionFlag",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "F51EEC8166F97B5FCEA24816EC737C24D5C5A5CB145EF2D33277C9A16044F40BC3FB97B4CFE7F9A23AF704EDE91586C6ABD2ACF00B277538BB304D77A1CA54F0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "copyright": "\u00A9 Microsoft Corporation. All rights reserved.",
+      "purl": "pkg:nuget/System.Windows.Extensions@6.0.0",
+      "externalReferences": [
+        {
+          "url": "https://dot.net/",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/dotnet/runtime",
+          "type": "vcs"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:nuget/Azure.Core@1.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1",
+        "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0.1",
+        "pkg:nuget/System.Memory.Data@1.0.2",
+        "pkg:nuget/System.Numerics.Vectors@4.5.0",
+        "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+        "pkg:nuget/System.Text.Json@4.7.2",
+        "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Azure.Identity@1.10.3",
+      "dependsOn": [
+        "pkg:nuget/Azure.Core@1.35.0",
+        "pkg:nuget/Microsoft.Identity.Client@4.56.0",
+        "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@4.56.0",
+        "pkg:nuget/System.Memory@4.5.4",
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0",
+        "pkg:nuget/System.Text.Json@4.7.2",
+        "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Bcl.AsyncInterfaces@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.CSharp@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Data.SqlClient@5.1.5",
+      "dependsOn": [
+        "pkg:nuget/Azure.Identity@1.10.3",
+        "pkg:nuget/Microsoft.Data.SqlClient.SNI.runtime@5.1.1",
+        "pkg:nuget/Microsoft.Identity.Client@4.56.0",
+        "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.35.0",
+        "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.35.0",
+        "pkg:nuget/Microsoft.SqlServer.Server@1.0.0",
+        "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1",
+        "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0.1",
+        "pkg:nuget/System.Runtime.Caching@6.0.0",
+        "pkg:nuget/System.Security.Cryptography.Cng@5.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+        "pkg:nuget/System.Text.Encoding.CodePages@6.0.0",
+        "pkg:nuget/System.Text.Encodings.Web@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.10",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.10",
+        "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.10",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Data.SqlClient@5.1.5",
+        "pkg:nuget/Microsoft.EntityFrameworkCore.Relational@8.0.10"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.10",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.EntityFrameworkCore.Abstractions@8.0.10",
+        "pkg:nuget/Microsoft.EntityFrameworkCore.Analyzers@8.0.10",
+        "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.1",
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Caching.Memory@8.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Caching.Abstractions@8.0.0",
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.2",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.2",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@8.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.1",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.1",
+        "pkg:nuget/Microsoft.Extensions.Logging.Abstractions@8.0.2",
+        "pkg:nuget/Microsoft.Extensions.Options@8.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Options@8.0.2",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@8.0.2",
+        "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Extensions.Primitives@8.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Identity.Client.Extensions.Msal@4.56.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Identity.Client@4.56.0",
+        "pkg:nuget/System.IO.FileSystem.AccessControl@5.0.0",
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Identity.Client@4.56.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.35.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.35.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@6.35.0",
+        "pkg:nuget/System.Text.Encoding@4.3.0",
+        "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+        "pkg:nuget/System.Text.Json@4.7.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Logging@6.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.35.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Protocols@6.35.0",
+        "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.35.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.Logging@6.35.0",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@6.35.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.CSharp@4.5.0",
+        "pkg:nuget/Microsoft.IdentityModel.Logging@6.35.0",
+        "pkg:nuget/System.Security.Cryptography.Cng@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.SqlServer.Server@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/Newtonsoft.Json@13.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1",
+      "dependsOn": [
+        "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0",
+        "pkg:nuget/System.Security.Permissions@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0.1",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Drawing.Common@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.Win32.SystemEvents@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Formats.Asn1@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.35.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.35.0",
+        "pkg:nuget/Microsoft.IdentityModel.Tokens@6.35.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.IO.FileSystem.AccessControl@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Security.AccessControl@6.0.0",
+        "pkg:nuget/System.Security.Principal.Windows@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Memory.Data@1.0.2",
+      "dependsOn": [
+        "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+        "pkg:nuget/System.Text.Json@4.7.2"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Memory@4.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Numerics.Vectors@4.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.Caching@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Configuration.ConfigurationManager@6.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Runtime@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.AccessControl@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Cryptography.Cng@5.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Formats.Asn1@5.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Permissions@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Security.AccessControl@6.0.0",
+        "pkg:nuget/System.Windows.Extensions@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Security.Principal.Windows@5.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encoding.CodePages@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encoding@4.3.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.NETCore.Platforms@1.1.0",
+        "pkg:nuget/Microsoft.NETCore.Targets@1.1.0",
+        "pkg:nuget/System.Runtime@4.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Encodings.Web@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:nuget/System.Text.Json@4.7.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:nuget/System.Windows.Extensions@6.0.0",
+      "dependsOn": [
+        "pkg:nuget/System.Drawing.Common@6.0.0"
+      ]
+    },
+    {
+      "ref": "SEI@0.0.0",
+      "dependsOn": [
+        "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.10",
+        "pkg:nuget/Microsoft.Extensions.Logging@8.0.1",
+        "pkg:nuget/Newtonsoft.Json@13.0.3"
+      ]
+    }
+  ]
+}
