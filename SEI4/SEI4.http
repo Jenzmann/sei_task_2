@@ -1,0 +1,6 @@
+@SEI4_HostAddress = http://localhost:5157
+
+GET {{SEI4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
