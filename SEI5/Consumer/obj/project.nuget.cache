@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EAOQgpMPZL4=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\sei_task_2\\SEI5\\Consumer\\Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonij\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
+    "C:\\Users\\jonij\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\jonij\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
