@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "RPCPublisher\\RPCPublisher.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RPCConsumer\\RPCConsumer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

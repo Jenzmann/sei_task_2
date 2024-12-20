@@ -3,6 +3,7 @@ using System.Text;
 
 namespace Publisher
 {
+    //docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management
     internal class Program
     {
         static async Task Main(string[] args)
@@ -11,6 +12,7 @@ namespace Publisher
             var factory = new ConnectionFactory { HostName = "localhost" };
             using var connection = await factory.CreateConnectionAsync();
             using var channel = await connection.CreateChannelAsync();
+
 
             await channel.QueueDeclareAsync(queue: "SEI5", durable: false, exclusive: false, autoDelete: false, arguments: null);
 
